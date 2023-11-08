@@ -4,14 +4,14 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 const config: DocsThemeConfig = {
   logo: <span>AM Framework</span>,
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: 'https://github.com/AM-Framework/documentation',
   },
   chat: {
-    link: 'https://discord.com',
+    link: 'https://discord.gg/yrUVURQ3KP',
   },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  docsRepositoryBase: 'https://github.com/AM-Framework/documentation',
   footer: {
-    text: 'Copyright © AM Framework 2023',
+    text:  `Copyright ${new Date().getFullYear()} @ AM Framework`,
   },
 }
 
