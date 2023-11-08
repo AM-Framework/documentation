@@ -9,7 +9,7 @@ const config: DocsThemeConfig = {
   chat: {
     link: 'https://discord.gg/yrUVURQ3KP',
   },
-  docsRepositoryBase: 'https://github.com/AM-Framework/documentation',
+  docsRepositoryBase: 'https://github.com/AM-Framework/',
   footer: {
     text:  `Copyright ${new Date().getFullYear()} @ AM Framework`,
   },
