@@ -1,0 +1,34 @@
+## Intro 
+
+in this page the methods will be explained that can be used on database objects. 
+In the coming examples value t will be used as a database object. 
+
+## Load 
+
+the method load is a method to load the data inside the database object it will also 
+return a table with the data 
+
+* Example 
+
+```lua
+local data = t:Load() 
+```
+
+## Unload 
+
+the method unload is a method to unload the data from a database object
+
+* Example 
+
+```lua 
+t:Unload() 
+```
+
+## Destroy 
+
+the method destroy is used to remove data and keys, when this method is used 
+the specific database object has to be called again if you want to access the data. 
+
+```lua 
+t:Destroy()
+```

@@ -1,0 +1,37 @@
+## Intro 
+
+This database system is created to be both optimal and 
+easy to use. 
+
+### downsides 
+
+like every system this system has some downsides: 
+
+- No accessing from other resources or 
+outside server. 
+
+## KVP 
+
+this function is used fetch and / or create a database object.
+
+* Example 
+
+```lua 
+local t = KVP('t')
+
+t['key'] = {
+    ['subIndex'] = true
+}
+```
+
+you can also fetch the objects that are inside other 
+database objects by using the path. 
+the path is simeply the order to get to the data, keys are seperated with ':'.
+
+* Example 
+
+```lua 
+local t = KVP('t:key')- 
+
+print(t.subIndex) 
+```
