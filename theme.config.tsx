@@ -11,7 +11,7 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: 'https://github.com/AM-Framework/',
   footer: {
-    text:  `Copyright ${new Date().getFullYear()} @ AM Framework`,
+    text:  `Copyright @  ${new Date().getFullYear()} AM Framework`,
   },
 }
 

@@ -1,8 +1,17 @@
-# Info 
+# Introduction 
 
-AM Database is a database that uses kvp to store everything, 
-a database object works similar to a lua table. 
+This database system is created to be both optimal and easy to use.
+The behaviour is similar to a lua table with they key difference that it stores 
+the data stored inside it. 
 
-when calling a database object no values are cached only the keys. 
-values are being cached when called up on and can be unloaded, loaded and destroyed 
-by using methods. 
+not all data is cached on database object request it will only be cached 
+when requested. 
+
+## Limitations 
+
+- No access outside the certain resource and / or server 
+
+## Features 
+
+The system provides useful features, such as determining data length and supporting table methods like table.insert and table.remove.
+When a table is rewritten, the old values are systematically deleted from the KVP storage, maintaining data integrity.
